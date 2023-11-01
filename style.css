@@ -1,0 +1,121 @@
+body {background-color: #FFFEF5;
+    overflow-x: hidden;}
+
+.circleimage {width: 80vw;}
+
+.mainpage_image {width: 100vw}
+
+.dropbtn {
+    background-color: #FFFEF5;
+    color: #689267;
+    padding: 8vw;
+    font-size: 1em;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFEF5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #F0EFDF;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #F0EFDF;}
+
+
+ .CA {text-align: center;
+margin-bottom: 8vh;
+margin-top: 3vh;}
+
+.containera {background-color: #FFFEF5;
+    padding:5vw;
+margin: 4vw;
+-webkit-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.39); 
+box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.39);
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -80%);}
+
+    .header {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      
+      @keyframes infiniteScroll {
+        from {transform: translateX(0)}
+        to {transform: translateX(-50%)}
+      }
+      .container {
+        width: 100%;
+        overflow-x: hidden;
+      }
+      .horizontal-scrolling-items {
+        display: flex;
+        font-size: 1.5em;
+        width: 1700px;
+        animation-name: infiniteScroll;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .horizontal-scrolling-items__item {
+        white-space: nowrap;
+      }
+
+      .buttonlunch{
+        height: 5em;
+        width: 10em;
+        background-color: #689267;
+        transition: all .2s ease-in-out;
+        color: white;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+      }
+      
+      .buttonlunch:active {
+        transform: scale(1.1);
+        transition: .1s;
+      }
+      
+      .buttondinner{
+        height: 5em;
+        width: 10em;
+        background-color: #689267;
+        transition: all .2s ease-in-out;
+        color: white;
+        -webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
+      
+      
+      .buttondinner:active {
+        transform: scale(1.1);
+        transition: .1s;
+      }
+      
