@@ -119,3 +119,15 @@ border-radius: 30px;
         transition: .1s;
       }
       
+      .knop {    
+        background-color: #689267;
+        padding: 0.5em 1em 0.5em 1em;
+        color: white;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;}
+
+        .menukaartbutton {display:flex;
+          justify-content: center;}
+
+      .menukaartknop {margin:2vw;}
