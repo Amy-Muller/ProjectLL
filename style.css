@@ -86,39 +86,13 @@ border-radius: 30px;}
         white-space: nowrap;
       }
 
-      .buttonlunch{
-        background-color: #689267;
-        padding: 0.5em 1em 0.5em 1em;
-        color: white;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;}
-      }
       
-      .buttonlunch:active {
-        transform: scale(1.1);
-        transition: .1s;
-      }
-      
-      .buttondinner{
-        background-color: #689267;
-        padding: 0.5em 1em 0.5em 1em;
-        color: white;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;}
-
-      
-      
-      .buttondinner:active {
-        transform: scale(1.1);
-        transition: .1s;
-      }
       
       .knop {    
         background-color: #689267;
         padding: 0.5em 1em 0.5em 1em;
         color: white;
+        margin-top: 20px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         border-radius: 30px;}
