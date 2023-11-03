@@ -90,38 +90,18 @@ border-radius: 30px;}
         white-space: nowrap;
       }
 
-      .buttonlunch{
-        height: 5em;
-        width: 10em;
-        background-color: #689267;
-        transition: all .2s ease-in-out;
-        color: white;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;
-      }
+ 
       
-      .buttonlunch:active {
-        transform: scale(1.1);
-        transition: .1s;
-      }
-      
-      .buttondinner{
-        height: 5em;
-        width: 10em;
-        background-color: #689267;
-        transition: all .2s ease-in-out;
-        color: white;
-        -webkit-border-radius: 30px;
+.button {   
+  background-color: #689267;
+  color: white;
+  -webkit-border-radius: 30px;
 -moz-border-radius: 30px;
 border-radius: 30px;
-}
+padding:4vw 6vw 4vw 6vw;
+margin:2vw}
       
-      
-      .buttondinner:active {
-        transform: scale(1.1);
-        transition: .1s;
-      }
+   
       
 .knopnaarmenu {display: flex;
-  justify-content: center}
+  justify-content: center }
