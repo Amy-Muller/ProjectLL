@@ -7,8 +7,8 @@ body {background-color: #FFFEF5;
 
 .circleimage {width: 80vw;}
 
-h1 {font-family:"brush";
-font-size: 3em;}
+h1 {font-family:"brush", fantasy, sans-serif;
+font-size: 4em;}
 
 .mainpage_image {width: 100vw;
 margin-top:10vh;}
