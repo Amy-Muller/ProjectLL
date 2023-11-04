@@ -1,7 +1,14 @@
+@font-face {
+  font-family: brush;
+  src: url(lettertypen_lekkerlokaal/Brush\ Script.ttf);}
+
 body {background-color: #FFFEF5;
     overflow-x: hidden;}
 
 .circleimage {width: 80vw;}
+
+h1 {font-family:"brush";
+font-size: 3em;}
 
 .mainpage_image {width: 100vw;
 margin-top:10vh;}
