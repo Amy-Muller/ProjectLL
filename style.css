@@ -133,7 +133,9 @@ text-decoration: none;}
 .footer {
 border-top: 7px double #354f35;
 margin-top: 8vh;
+padding: 7%;
 }
+
 
 .scroll_container {
   display: -webkit-flex;
@@ -150,6 +152,7 @@ overflow: auto;
   min-width: 60vw;
   margin-right: 2%;
   margin-bottom: 0;
+  padding: 3%;
 }
 
 .scrollimage {width:60vw}
