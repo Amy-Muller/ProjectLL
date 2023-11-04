@@ -3,12 +3,16 @@
   src: url(lettertypen_lekkerlokaal/Brush\ Script.ttf);}
 
 body {background-color: #FFFEF5;
-    overflow-x: hidden;}
+overflow-x:hidden ;}
 
 .circleimage {width: 80vw;}
 
 h1 {font-family:"brush", fantasy, sans-serif;
 font-size: 4em;}
+
+h2, h3 {
+color: #354f35;
+}
 
 .mainpage_image {width: 100vw;
 margin-top:10vh;}
@@ -100,6 +104,7 @@ border-radius: 30px;}
         display: flex;
         font-size: 1.5em;
         width: 1700px;
+        color: #354f35;
         animation-name: infiniteScroll;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -125,3 +130,26 @@ text-decoration: none;}
 .knopnaarmenu {display: flex;
   justify-content: center }
 
+.footer {
+border-top: 7px double #354f35;
+margin-top: 8vh;
+}
+
+.scroll_container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top:10%;
+  padding:5%;
+  border: 7px ridge #EECE6D;
+border-radius: 15px;
+overflow: auto;
+}
+
+.scroll_box {
+  min-width: 60vw;
+  margin-right: 2%;
+  margin-bottom: 0;
+}
+
+.scrollimage {width:60vw}
