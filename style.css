@@ -3,7 +3,8 @@ body {background-color: #FFFEF5;
 
 .circleimage {width: 80vw;}
 
-.mainpage_image {width: 100vw}
+.mainpage_image {width: 100vw;
+margin-top:10vh;}
 
 .logomenu {width: 25vw;}
 
@@ -17,10 +18,21 @@ body {background-color: #FFFEF5;
     border: none;
   }
   .dropdown {
-    position: relative;
     display: inline-block;
   }
+
+nav{
+    position: fixed;
+    z-index: 100;
+    top:0;
+    width:100vw;
+    background-color:#FFFEF5;
   
+  }
+  
+  .flex {display: flex;
+    justify-content: space-between;}
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -59,7 +71,7 @@ border-radius: 30px;}
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-45%, -80%);}
 
