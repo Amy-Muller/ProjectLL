@@ -103,7 +103,7 @@ border-radius: 30px;}
       .horizontal-scrolling-items {
         display: flex;
         font-size: 1.5em;
-        width: 1700px;
+        width: 2800px;
         color: #354f35;
         animation-name: infiniteScroll;
         animation-duration: 20s;
@@ -143,8 +143,6 @@ padding: 7%;
   display: flex;
   margin-top:10%;
   padding:5%;
-  border: 7px ridge #EECE6D;
-border-radius: 15px;
 overflow: auto;
 }
 
