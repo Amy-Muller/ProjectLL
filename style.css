@@ -1,21 +1,52 @@
 @font-face {
   font-family: brush;
   src: url(lettertypen_lekkerlokaal/Brush\ Script.ttf);}
+ 
+ @font-face {
+  font-family: sierlijk;
+  src: url(lettertypen_lekkerlokaal/GreatVibes-Regular.ttf);
+ } 
+
+ @font-face {
+  font-family: "play";
+  src: url(lettertypen_lekkerlokaal/PlaypenSans-VariableFont_wght.ttf);
+ }
+
+@font-face {
+  font-family: "stift";
+  src: url(lettertypen_lekkerlokaal/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+  font-family: "bob";
+  src: url(lettertypen_lekkerlokaal/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: "comic";
+  src: url(lettertypen_lekkerlokaal/ComicNeue-Regular.ttf);
+}
+
 
 body {background-color: #FFFEF5;
 overflow-x:hidden ;}
 
 .circleimage {width: 80vw;}
 
-h1 {font-family:"brush", fantasy, sans-serif;
+h1 {font-family:"stift", "brush", fantasy, sans-serif;
 font-size: 4em;}
 
 h2, h3 {
 color: #354f35;
+font-family: "stift";
 }
 
+p{
+  font-family: "comic";
+  }
+
 .mainpage_image {width: 100vw;
-margin-top:10vh;}
+margin-top:9vh;}
 
 .duurzaamheid_image {width:100vw;}
 
@@ -40,7 +71,7 @@ nav{
     z-index: 100;
     top:0;
     width:100vw;
-    background-color:#FFFEF5;
+    background-color: #F0EFDF;
   }
   
   .flex {display: flex;
@@ -99,6 +130,8 @@ border-radius: 30px;}
       .container {
         width: 100%;
         overflow-x: hidden;
+        font-family: "play";
+        margin: 10% 0% 10% 0%;
       }
       .horizontal-scrolling-items {
         display: flex;
@@ -141,9 +174,11 @@ padding: 7%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top:10%;
+  margin:10% 2% 10% 2%;
   padding:5%;
 overflow: auto;
+background-color: #F0EFDF;
+border-radius: 15px;
 }
 
 .scroll_box {
