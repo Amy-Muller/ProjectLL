@@ -163,17 +163,14 @@ margin: 2vw;
 text-decoration: none;
 font-family: "play";}
       
-   
-      
 .knopnaarmenu {display: flex;
   justify-content: center }
 
 .footer {
-border-top: 7px double #354f35;
+border-top: 7px double #667d66;
 margin-top: 8vh;
 padding: 7%;
 }
-
 
 .scroll_container {
   display: -webkit-flex;
