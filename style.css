@@ -41,8 +41,11 @@ color: #354f35;
 font-family: "stift";
 }
 
+h2 {font-size: 2em;}
+
 p{
   font-family: "comic";
+  font-size: 1.5em;
   }
 
 .mainpage_image {width: 100vw;
@@ -154,6 +157,7 @@ border-radius: 30px;}
   -webkit-border-radius: 30px;
 -moz-border-radius: 30px;
 border-radius: 30px;
+border: 5px outset #95bd95;
 padding:4vw 8vw 4vw 8vw;
 margin: 2vw;
 text-decoration: none;
