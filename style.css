@@ -1,16 +1,17 @@
 @font-face {
   font-family: brush;
-  src: url(lettertypen_lekkerlokaal/Brush\ Script.ttf);}
- 
- @font-face {
+  src: url(lettertypen_lekkerlokaal/Brush\Script.ttf);
+}
+
+@font-face {
   font-family: sierlijk;
   src: url(lettertypen_lekkerlokaal/GreatVibes-Regular.ttf);
- } 
+}
 
- @font-face {
+@font-face {
   font-family: "play";
   src: url(lettertypen_lekkerlokaal/PlaypenSans-VariableFont_wght.ttf);
- }
+}
 
 @font-face {
   font-family: "stift";
@@ -27,160 +28,197 @@
   src: url(lettertypen_lekkerlokaal/ComicNeue-Regular.ttf);
 }
 
-
-body {background-color: #FFFEF5;
-overflow-x:hidden ;}
-
-.circleimage {width: 80vw;}
-
-h1 {font-family:"stift", "brush", fantasy, sans-serif;
-font-size: 4em;}
-
-h2, h3 {
-color: #354f35;
-font-family: "stift";
+body {
+  background-color: #fffef5;
+  overflow-x: hidden;
 }
 
-h2 {font-size: 2em;}
+.circleimage {
+  width: 80vw;
+}
 
-p{
+h1 {
+  font-family: "stift", "brush", fantasy, sans-serif;
+  font-size: 4em;
+}
+
+h2,
+h3 {
+  color: #354f35;
+  font-family: "stift";
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
   font-family: "comic";
   font-size: 1.5em;
-  }
+}
 
-.mainpage_image {width: 100vw;
-margin-top:9vh;}
+.mainpage_image {
+  width: 100vw;
+  margin-top: 9vh;
+}
 
-.duurzaamheid_image {width:100vw;}
+.duurzaamheid_image {
+  width: 100vw;
+}
 
-.logomenu {width: 25vw;}
+.logomenu {
+  width: 25vw;
+}
 
-.menuknop {width:14vw;}
+.menuknop {
+  width: 14vw;
+}
 
 .dropbtn {
-    background-color: #F0EFDF;
-    color: #689267;
-    padding: 4vw;
-    font-size: 1em;
-    border: none;
-  }
+  background-color: #f0efdf;
+  color: #689267;
+  padding: 4vw;
+  font-size: 1em;
+  border: none;
+}
 
-  .dropdown {
-    display: inline-block;
-  }
+.dropdown {
+  display: inline-block;
+}
 
-nav{
-    position: fixed;
-    z-index: 100;
-    top:0;
-    width:100vw;
-    background-color: #F0EFDF;
-  }
-  
-  .flex {display: flex;
-    justify-content: space-between;}
+nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100vw;
+  background-color: #f0efdf;
+}
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #FFFEF5;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #F0EFDF;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #F0EFDF;}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
 
- .CA {text-align: center;
-margin-bottom: 8vh;
-margin-top: 3vh;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffef5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-.containera {background-color: #FFFEF5;
-    padding:5vw;
-margin: 4vw;
--webkit-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.39); 
-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.39);
--webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0efdf;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f0efdf;
+}
+
+.CA {
+  text-align: center;
+  margin-bottom: 8vh;
+  margin-top: 3vh;
+}
+
+.containera {
+  background-color: #fffef5;
+  padding: 5vw;
+  margin: 4vw;
+  -webkit-box-shadow: 0px 0px 26px 2px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 26px 2px rgba(0, 0, 0, 0.39);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
 
 .centered {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-45%, -80%);}
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-45%, -80%);
+}
 
-    .header {
-        position: relative;
-        text-align: center;
-        color: white;
-      }
-      
-      @keyframes infiniteScroll {
-        from {transform: translateX(0)}
-        to {transform: translateX(-50%)}
-      }
-      .container {
-        width: 100%;
-        overflow-x: hidden;
-        font-family: "play";
-        margin: 10% 0% 10% 0%;
-      }
-      .horizontal-scrolling-items {
-        display: flex;
-        font-size: 1.5em;
-        width: 2800px;
-        color: #354f35;
-        animation-name: infiniteScroll;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-      }
-      .horizontal-scrolling-items__item {
-        white-space: nowrap;
-      }
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
-      
-.knop {   
+@keyframes infiniteScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.container {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "play";
+  margin: 10% 0% 10% 0%;
+}
+.horizontal-scrolling-items {
+  display: flex;
+  font-size: 1.5em;
+  width: 2800px;
+  color: #354f35;
+  animation-name: infiniteScroll;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.horizontal-scrolling-items__item {
+  white-space: nowrap;
+}
+
+.knop {
   background-color: #689267;
   color: white;
   -webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;
-border: 5px outset #95bd95;
-padding:4vw 8vw 4vw 8vw;
-margin: 2vw;
-text-decoration: none;
-font-family: "play";}
-      
-.knopnaarmenu {display: flex;
-  justify-content: center }
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 5px outset #95bd95;
+  padding: 4vw 8vw 4vw 8vw;
+  margin: 2vw;
+  text-decoration: none;
+  font-family: "play";
+}
+
+.knopnaarmenu {
+  display: flex;
+  justify-content: center;
+}
 
 .footer {
-border-top: 7px double #667d66;
-margin-top: 8vh;
-padding: 7%;
+  border-top: 7px double #667d66;
+  margin-top: 8vh;
+  display:flex;
+  align-items: center;
 }
 
 .scroll_container {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin:10% 2% 10% 2%;
-  padding:5%;
-overflow: auto;
-background-color: #F0EFDF;
-border-radius: 15px;
+  margin: 10% 2% 10% 2%;
+  padding: 5%;
+  overflow: auto;
+  background-color: #f0efdf;
+  border-radius: 15px;
 }
 
 .scroll_box {
@@ -190,4 +228,22 @@ border-radius: 15px;
   padding: 3%;
 }
 
-.scrollimage {width:60vw}
+.scrollimage {
+  width: 60vw;
+}
+
+.footerimage {
+  width: 45vw;
+}
+
+.footerfont {font-size: 1em;}
+
+.footertext {background-color: #f0efdf;
+  padding: 0% 3% 0% 3%;
+  border-radius: 15px;
+  margin:3%;
+}
+
+.stadspasfoto {
+  margin-top: 3%;
+}
