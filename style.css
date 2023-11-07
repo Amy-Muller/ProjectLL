@@ -206,8 +206,6 @@ nav {
 .footer {
   border-top: 7px double #667d66;
   margin-top: 8vh;
-  display:flex;
-  align-items: center;
 }
 
 .scroll_container {
