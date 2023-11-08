@@ -28,9 +28,18 @@
   src: url(lettertypen_lekkerlokaal/ComicNeue-Regular.ttf);
 }
 
+@keyframes infiniteScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }}
+
 body {
   background-color: #fffef5;
   overflow-x: hidden;
+  margin:0;
 }
 
 .circleimage {
@@ -42,19 +51,23 @@ h1 {
   font-size: 4em;
 }
 
+h2 {
+  font-size: 2em;
+}
+
 h2,
 h3 {
   color: #354f35;
   font-family: "stift";
-}
-
-h2 {
-  font-size: 2em;
+  margin-block: 0;
 }
 
 p {
   font-family: "comic";
   font-size: 1.5em;
+  margin-block: 0;
+  margin-inline: 0;
+  padding: 4% 2% 15% 2%;
 }
 
 .mainpage_image {
@@ -74,16 +87,32 @@ p {
   width: 14vw;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #686e68;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #f0efdf;
+  display: flex;
+  flex-direction: column;
+}
+
 .dropbtn {
   background-color: #f0efdf;
-  color: #689267;
   padding: 4vw;
   font-size: 1em;
   border: none;
-}
-
-.dropdown {
-  display: inline-block;
 }
 
 nav {
@@ -94,20 +123,6 @@ nav {
   background-color: #f0efdf;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #fffef5;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -115,17 +130,6 @@ nav {
   display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #f0efdf;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #f0efdf;
-}
 
 .CA {
   text-align: center;
@@ -136,13 +140,11 @@ nav {
 .containera {
   background-color: #fffef5;
   padding: 5vw;
-  margin: 4vw;
-  -webkit-box-shadow: 0px 0px 26px 2px rgba(0, 0, 0, 0.39);
-  box-shadow: 0px 0px 26px 2px rgba(0, 0, 0, 0.39);
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
+  margin: 6vw;
+  box-shadow: 0px 0px 20px 1px #667d66;
   border-radius: 30px;
 }
+
 
 .centered {
   position: absolute;
@@ -157,14 +159,6 @@ nav {
   color: white;
 }
 
-@keyframes infiniteScroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
 .container {
   width: 100%;
   overflow-x: hidden;
@@ -188,8 +182,6 @@ nav {
 .knop {
   background-color: #689267;
   color: white;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
   border-radius: 30px;
   border: 5px outset #95bd95;
   padding: 4vw 8vw 4vw 8vw;
@@ -206,6 +198,10 @@ nav {
 .footer {
   border-top: 7px double #667d66;
   margin-top: 8vh;
+  margin:7%;
+  background-color: #f0efdf;
+  padding: 0% 3% 3% 3%;
+  border-radius: 15px;
 }
 
 .scroll_container {
@@ -230,16 +226,16 @@ nav {
   width: 60vw;
 }
 
-.footerimage {
-  width: 45vw;
+.footeramsterdamsepasp {font-size: 1em;}
+
+.testtest {
+  text-align:center;
+  padding:3%;
+  align-items: center;
 }
 
-.footerfont {font-size: 1em;}
-
-.footertext {background-color: #f0efdf;
-  padding: 0% 3% 0% 3%;
-  border-radius: 15px;
-  margin:3%;
+.footerimage {
+  width: 65vw;
 }
 
 .stadspasfoto {
