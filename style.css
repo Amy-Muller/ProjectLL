@@ -28,17 +28,8 @@
   src: url(lettertypen_lekkerlokaal/ComicNeue-Regular.ttf);
 }
 
-@keyframes infiniteScroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }}
-
 body {
   background-color: #fffef5;
-  overflow-x: hidden;
   margin:0;
 }
 
@@ -57,7 +48,7 @@ h2 {
 
 h2,
 h3 {
-  color: #354f35;
+  color: #3b523a;
   font-family: "stift";
   margin-block: 0;
 }
@@ -82,6 +73,7 @@ p {font-family: "comic";
 
 .logomenu {
   width: 25vw;
+  padding: 10% 10% 0% 0%;
 }
 
 .menuknop {
@@ -136,7 +128,6 @@ nav {
   display: block;
 }
 
-
 .CA {
   text-align: center;
   margin-bottom: 8vh;
@@ -165,35 +156,42 @@ nav {
 }
 
 .container {
-  width: 100%;
-  overflow-x: hidden;
-  font-family: "play";
-  margin: 10% 0% 10% 0%;
-}
-.horizontal-scrolling-items {
+  overflow: hidden;
+  align-items: center;
   display: flex;
-  font-size: 1.5em;
-  width: 2800px;
-  color: #354f35;
-  animation-name: infiniteScroll;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
 }
-.horizontal-scrolling-items__item {
-  white-space: nowrap;
+.horizontalscroll { white-space: nowrap;
+}
+
+
+.horizontalscroll p 
+{font-family: "play";
+font-size: 1.5em;}
+
+.rechtsnaarlinks {
+  animation: rechtsnaarlinks 8s infinite linear;
+}
+
+@keyframes rechtsnaarlinks {
+  from {transform: translateX(0%);}
+  to{transform: translateX(-50%);}
 }
 
 .knop {
   background-color: #689267;
   color: white;
   border-radius: 30px;
-  border: 5px outset #95bd95;
+  border: 5px outset #829d81;
   padding: 4vw 8vw 4vw 8vw;
   margin: 2vw;
   text-decoration: none;
   font-family: "play";
 }
+
+.knop:hover { background-color: #E5B422;
+  color:#fffef5;
+  border: 5px outset #E5B422;}
+
 
 .knopnaarmenu {
   display: flex;
@@ -240,7 +238,7 @@ nav {
 }
 
 .footerimage {
-  width: 65vw;
+  width: 60vw;
 }
 
 .stadspasfoto {
