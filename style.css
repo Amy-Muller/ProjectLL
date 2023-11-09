@@ -73,6 +73,10 @@ p {
   padding-left: 5%;
 }
 
+.iconen{width: 25vw;}
+
+.hand {width: 30vw;}
+
 .duurzaamheid_image {
   width: 100vw;
 }
@@ -237,7 +241,8 @@ nav {
 }
 
 .bitterbal {
-  width: 100vw;
+  width: 75vw;
+  border-radius: 25px;
 }
 
 .scrollimage {
@@ -254,4 +259,10 @@ nav {
 
 .stadspasfoto {
   margin-top: 3%;
+}
+
+.footertekst {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
 }
