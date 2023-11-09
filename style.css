@@ -30,7 +30,7 @@
 
 body {
   background-color: #fffef5;
-  margin:0;
+  margin: 0;
 }
 
 .circleimage {
@@ -53,8 +53,10 @@ h3 {
   margin-block: 0;
 }
 
-p {font-family: "comic";
-  font-size: 1.25em;}
+p {
+  font-family: "comic";
+  font-size: 1.25em;
+}
 
 .textindex {
   margin-block: 0;
@@ -66,8 +68,10 @@ p {font-family: "comic";
   width: 100vw;
   margin-top: 9vh;
 }
-.icoon {width:25vw;
-padding-left: 5%;}
+.icoon {
+  width: 25vw;
+  padding-left: 5%;
+}
 
 .duurzaamheid_image {
   width: 100vw;
@@ -93,7 +97,6 @@ padding-left: 5%;}
   position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px #686e68;
-
 }
 
 .dropdown:hover .dropdown-content {
@@ -104,8 +107,8 @@ padding-left: 5%;}
 }
 
 .dropdown-content a:hover {
-  background-color: #E5B422;
-  color:#fffef5;
+  background-color: #e5b422;
+  color: #fffef5;
 }
 
 .dropbtn {
@@ -162,21 +165,26 @@ nav {
   align-items: center;
   display: flex;
 }
-.horizontalscroll { white-space: nowrap;
+.horizontalscroll {
+  white-space: nowrap;
 }
 
-
-.horizontalscroll p 
-{font-family: "play";
-font-size: 1.5em;}
+.horizontalscroll p {
+  font-family: "play";
+  font-size: 1.5em;
+}
 
 .rechtsnaarlinks {
   animation: rechtsnaarlinks 8s infinite linear;
 }
 
 @keyframes rechtsnaarlinks {
-  from {transform: translateX(0%);}
-  to{transform: translateX(-50%);}
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .knop {
@@ -190,10 +198,11 @@ font-size: 1.5em;}
   font-family: "play";
 }
 
-.knop:hover { background-color: #E5B422;
-  color:#fffef5;
-  border: 5px outset #E5B422;}
-
+.knop:hover {
+  background-color: #e5b422;
+  color: #fffef5;
+  border: 5px outset #e5b422;
+}
 
 .knopnaarmenu {
   display: flex;
@@ -203,7 +212,7 @@ font-size: 1.5em;}
 .footer {
   border-top: 7px double #667d66;
   margin-top: 8vh;
-  margin:7%;
+  margin: 7%;
   background-color: #f0efdf;
   padding: 0% 3% 3% 3%;
   border-radius: 15px;
@@ -227,13 +236,17 @@ font-size: 1.5em;}
   padding: 3%;
 }
 
+.bitterbal {
+  width: 100vw;
+}
+
 .scrollimage {
   width: 60vw;
 }
 
-.footeramsterdamsepasp {font-size: 1em;}
-
-
+.footeramsterdamsepasp {
+  font-size: 1em;
+}
 
 .footerimage {
   width: 50vw;
