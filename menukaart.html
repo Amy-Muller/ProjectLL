@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="backgroundimage" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,51 +7,34 @@
     <title>Menukaart Lekker Lokaal</title>
   </head>
   <body>
-    <nav>
-      <section class="navbar">
-        <article class="img">
-          <img
-            src="website_eindproject_afbeeldingen/logo_buurtboerderij.png"
-            alt="Logo"
-            class="logomenu"
-          />
-        </article>
-
-        <article class="dropdown">
-          <button class="dropbtn">
-            <img
-              src="website_eindproject_afbeeldingen/menuknop.png"
-              alt="menuknop"
-              class="menuknop"
-            />
-          </button>
-
-          <section class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="duurzaamheid.html">Duurzaam</a>
-            <a href="over_ons.html">Over ons</a>
-            <a href="menukaart.html">Menukaart</a>
-            <img
-              src="website_eindproject_afbeeldingen/icoon.png"
-              alt="icoon"
-              class="icoon"
-            />
-          </section>
-        </article>
-      </section>
-    </nav>
-
-    <header>
-      <section class="header">
+    <header class="intro">
+      <a href="index.html"
+        ><img
+          class="logo"
+          src="website_eindproject_afbeeldingen/logo_buurtboerderij.png"
+          alt="logo van lekker lokaal"
+      /></a>
+      <input type="checkbox" id="check" />
+      <label for="check" class="icon">
         <img
-          src="website_eindproject_afbeeldingen/header.JPG"
-          alt="foto picknickbank met tractor in achtergrond"
-          class="mainpage_image"
+          id="menuknop"
+          src="website_eindproject_afbeeldingen/menuknop.png"
+          alt="Menu icoon"
         />
-        <h1 class="centered">Lekker Lokaal</h1>
-      </section>
+      </label>
+      <nav class="navbar">
+        <a href="index.html">Homepagina</a>
+        <a href="duurzaamheid.html">Duurzaam</a>
+        <a href="over_ons.html">Over ons</a>
+        <a href="menukaart.html">Menukaart</a>
+      </nav>
     </header>
+
     <main>
+      <section class="backgroundimg">
+        <h1>Lekker Lokaal</h1>
+      </section>
+
       <section class="containera CA">
         <img
           src="website_eindproject_afbeeldingen/appel.png"
