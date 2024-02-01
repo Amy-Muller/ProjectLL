@@ -40,6 +40,18 @@ h1 {
 
 .backgroundimg h1 {justify-content: center;}
 
+.backgroundimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(website_eindproject_afbeeldingen/header.jpg);
+}
+
+
 h2 {
   font-size: 2em;
 }
@@ -54,17 +66,6 @@ h3 {
 p {
   font-family: "comicneue", Arial, Helvetica, sans-serif;
   font-size: 1.25em;
-}
-
-.backgroundimg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url(website_eindproject_afbeeldingen/header.jpg);
 }
 
 .textindex {
