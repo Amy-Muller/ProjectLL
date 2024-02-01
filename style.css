@@ -2,7 +2,7 @@
   font-family: "brush";
   src: url(lettertypen_lekkerlokaal/Brush\Script.ttf);
 }
- 
+
 @font-face {
   font-family: "play";
   src: url(lettertypen_lekkerlokaal/PlaypenSans-VariableFont_wght.ttf);
@@ -35,12 +35,14 @@ body {
 h1 {
   font-family: "permanentmarker", "brush", fantasy, sans-serif;
   font-size: 4em;
-  color:#fffef5;
+  color: #fffef5;
 }
 
-.backgroundimg h1 {justify-content: center;}
+.backgroundimg h1 {
+  justify-content: center;
+}
 
-.backgroundimg{
+.backgroundimg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,9 +50,8 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(website_eindproject_afbeeldingen/header.jpg);
+  background-image: url(website_eindproject_afbeeldingen/header.jpg)
 }
-
 
 h2 {
   font-size: 2em;
@@ -59,7 +60,8 @@ h2 {
 h2,
 h3 {
   color: #3b523a;
-  font-family: "permanentmarker",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "permanentmarker", "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif;
   margin-block: 0;
 }
 
@@ -86,9 +88,13 @@ p {
   padding-left: 5%;
 }
 
-.iconen{width: 25vw;}
+.iconen {
+  width: 25vw;
+}
 
-.hand {width: 30vw;}
+.hand {
+  width: 30vw;
+}
 
 .duurzaamheid_image {
   width: 100vw;
@@ -99,7 +105,7 @@ p {
 .navbar a {
   font-size: 1.15rem;
   color: #689267;
-  font-family: "play","comicneue",Arial, Helvetica, sans-serif;
+  font-family: "play", "comicneue", Arial, Helvetica, sans-serif;
   text-decoration: none;
   display: block;
   margin: 1.5rem 0 0 2.5rem;
@@ -115,15 +121,13 @@ p {
 .icon img {
   width: 5vh;
   cursor: pointer;
-
 }
 
-#check:checked~.icons{
+#check:checked ~ .icons {
   display: none;
 }
 
-
-#check:checked~.icons {
+#check:checked ~ .icons {
   display: block;
 }
 
@@ -136,18 +140,17 @@ p {
   background: #fffef5;
   overflow: hidden;
   transition: 0.3s ease;
-  
 }
 
-#check:checked~.navbar {
+#check:checked ~ .navbar {
   height: 28vh;
 }
 
-#check:checked~.navbar a {
+#check:checked ~ .navbar a {
   transform: translateY(0);
 }
 
-/*etc*/ 
+/*etc*/
 
 .CA {
   text-align: center;
@@ -182,7 +185,7 @@ p {
 }
 
 .horizontalscroll p {
-  font-family: "play","comicneue",Arial, Helvetica, sans-serif;
+  font-family: "play", "comicneue", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
 }
 
