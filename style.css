@@ -36,7 +36,7 @@ h1 {
   font-family: "permanentmarker", "brush", fantasy, sans-serif;
   font-size: 4em;
   color: #fffef5;
-text-align: center;
+  text-align: center;
 }
 
 .backgroundimg {
@@ -47,7 +47,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(website_eindproject_afbeeldingen/header1.jpg)
+  background-image: url(website_eindproject_afbeeldingen/header1.jpg);
 }
 
 h2 {
@@ -97,7 +97,7 @@ p {
   width: 100vw;
 }
 
-/*navbar|*/
+/*navbar*/
 
 .navbar a {
   font-size: 1.15rem;
