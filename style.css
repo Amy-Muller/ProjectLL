@@ -36,10 +36,7 @@ h1 {
   font-family: "permanentmarker", "brush", fantasy, sans-serif;
   font-size: 4em;
   color: #fffef5;
-}
-
-.backgroundimg h1 {
-  justify-content: center;
+text-align: center;
 }
 
 .backgroundimg {
